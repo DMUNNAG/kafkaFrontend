@@ -1,0 +1,6 @@
+version: '3'
+services:
+  frontservice:
+    image: frontimage:v1.0 
+    ports:
+      - "1999:3000"
